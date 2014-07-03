@@ -15,22 +15,19 @@ $one:1 450px;
 
 .container {
   @include container;
-  @include at-breakpoint($four) {
-    @include container;
-  } 
-  @include at-breakpoint($three) {
-    @include container;
-  }
-  @include at-breakpoint($two) {
-    @include container;
-  }
   
   @include at-breakpoint($one) {
     @include container;
 	}
-  
-  
-  
+  @include at-breakpoint($two) {
+    @include container;
+	}
+  @include at-breakpoint($three) {
+    @include container;
+	}
+  @include at-breakpoint($four) {
+    @include container;
+	}	
 }	
 
 .icon{
@@ -59,19 +56,19 @@ $one:1 450px;
 }
 .poles {
   @include transition(all 1s);
-  @include at-breakpoint($four) {
+  @include at-breakpoint($one) {
     @include isolate-grid(1);
     height:200px;
-	}
-  @include at-breakpoint($three) {
-    @include isolate-grid(1);
-    height:125px;
 	}
   @include at-breakpoint($two) {
     @include isolate-grid(1);
     height:125px;
 	}
-  @include at-breakpoint($one) {
+  @include at-breakpoint($three) {
+    @include isolate-grid(1);
+    height:125px;
+	}
+  @include at-breakpoint($four) {
     @include isolate-grid(1);
     height:150px;
 	}
@@ -90,7 +87,7 @@ $one:1 450px;
     @include span-columns(3);
 	}
   @include at-breakpoint($four) {
-    @include span-columns(1);
+    @include span-columns(4);
 	}	
 }
 // @for $i from 1 through 12 {
