@@ -59,20 +59,20 @@ $one:1 450px;
 }
 .poles {
   @include transition(all 1s);
-  @include at-breakpoint($one) {
+  @include at-breakpoint($four) {
     @include isolate-grid(1);
     height:200px;
 	}
-  @include at-breakpoint($two) {
-    @include isolate-grid(2);
-    height:125px;
-	}
   @include at-breakpoint($three) {
-    @include isolate-grid(3);
+    @include isolate-grid(1);
     height:125px;
 	}
-  @include at-breakpoint($four) {
-    @include isolate-grid(4);
+  @include at-breakpoint($two) {
+    @include isolate-grid(1);
+    height:125px;
+	}
+  @include at-breakpoint($one) {
+    @include isolate-grid(1);
     height:150px;
 	}
 }
@@ -90,7 +90,7 @@ $one:1 450px;
     @include span-columns(3);
 	}
   @include at-breakpoint($four) {
-    @include span-columns(4);
+    @include span-columns(1);
 	}	
 }
 // @for $i from 1 through 12 {
