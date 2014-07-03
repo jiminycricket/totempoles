@@ -167,76 +167,46 @@
 @media (min-width: 451px) and (max-width: 600px) {
   /* line 60, ../sass/screen.scss */
   .poles {
-    width: 40%;
+    width: 100%;
     float: left;
     margin-right: 20%;
     margin-right: -100%;
     height: 125px;
   }
   /* line 42, ../../../tool/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass/susy/_isolation.scss */
-  .poles:nth-child(2n + 1) {
+  .poles:nth-child(1n + 1) {
     margin-left: 0%;
     clear: left;
-  }
-  /* line 42, ../../../tool/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass/susy/_isolation.scss */
-  .poles:nth-child(2n + 2) {
-    margin-left: 60%;
-    clear: none;
   }
 }
 @media (min-width: 601px) and (max-width: 900px) {
   /* line 60, ../sass/screen.scss */
   .poles {
-    width: 25%;
+    width: 100%;
     float: left;
     margin-right: 12.5%;
     margin-right: -100%;
     height: 125px;
   }
   /* line 42, ../../../tool/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass/susy/_isolation.scss */
-  .poles:nth-child(3n + 1) {
+  .poles:nth-child(1n + 1) {
     margin-left: 0%;
     clear: left;
-  }
-  /* line 42, ../../../tool/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass/susy/_isolation.scss */
-  .poles:nth-child(3n + 2) {
-    margin-left: 37.5%;
-    clear: none;
-  }
-  /* line 42, ../../../tool/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass/susy/_isolation.scss */
-  .poles:nth-child(3n + 3) {
-    margin-left: 75%;
-    clear: none;
   }
 }
 @media (min-width: 901px) {
   /* line 60, ../sass/screen.scss */
   .poles {
-    width: 18.18182%;
+    width: 100%;
     float: left;
     margin-right: 9.09091%;
     margin-right: -100%;
     height: 150px;
   }
   /* line 42, ../../../tool/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass/susy/_isolation.scss */
-  .poles:nth-child(4n + 1) {
+  .poles:nth-child(1n + 1) {
     margin-left: 0%;
     clear: left;
-  }
-  /* line 42, ../../../tool/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass/susy/_isolation.scss */
-  .poles:nth-child(4n + 2) {
-    margin-left: 27.27273%;
-    clear: none;
-  }
-  /* line 42, ../../../tool/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass/susy/_isolation.scss */
-  .poles:nth-child(4n + 3) {
-    margin-left: 54.54545%;
-    clear: none;
-  }
-  /* line 42, ../../../tool/fire.app/lib/ruby/compass_extensions/susy-1.0.9/sass/susy/_isolation.scss */
-  .poles:nth-child(4n + 4) {
-    margin-left: 81.81818%;
-    clear: none;
   }
 }
 

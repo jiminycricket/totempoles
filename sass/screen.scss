@@ -64,15 +64,15 @@ $one:1 450px;
     height:200px;
 	}
   @include at-breakpoint($two) {
-    @include isolate-grid(1);
+    @include isolate-grid(2);
     height:125px;
 	}
   @include at-breakpoint($three) {
-    @include isolate-grid(1);
+    @include isolate-grid(3);
     height:125px;
 	}
   @include at-breakpoint($four) {
-    @include isolate-grid(1);
+    @include isolate-grid(4);
     height:150px;
 	}
 }
