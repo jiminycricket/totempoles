@@ -15,19 +15,22 @@ $one:1 450px;
 
 .container {
   @include container;
+  @include at-breakpoint($four) {
+    @include container;
+  } 
+  @include at-breakpoint($three) {
+    @include container;
+  }
+  @include at-breakpoint($two) {
+    @include container;
+  }
   
   @include at-breakpoint($one) {
     @include container;
 	}
-  @include at-breakpoint($two) {
-    @include container;
-	}
-  @include at-breakpoint($three) {
-    @include container;
-	}
-  @include at-breakpoint($four) {
-    @include container;
-	}	
+  
+  
+  
 }	
 
 .icon{
