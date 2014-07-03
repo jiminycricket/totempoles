@@ -1,0 +1,18 @@
+html5
+head
+	meta charset="UTF-8"
+	title Totem Poles
+	link rel="stylesheet" type="text/css" href="stylesheets/screen.css"
+body
+	header
+	.container
+		.icon
+			img src="images/totem-poles-logo.svg" alt="logo"
+			h1 Totem Poles
+		.totem
+			- for i in (1..12)
+				<div class="poles">
+					<img class="img img#{i}" src="images/totem-poles-#{i}.png" alt="totem-poles">
+				</div> 
+		footer
+			p jiminy.upon.star@gmail.com

@@ -1,0 +1,16 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "susy";
+
+// ---------------------------------------------------------------------------
+// Basic Grid
+
+$total-columns  : 4;
+$column-width   : 200px;
+$gutter-width   : 100px;
+$grid-padding   : 40px;
+
+$show-grid-backgrounds  : true;
+@include border-box-sizing;
+@include at-breakpoint(240px 1);
